@@ -27,9 +27,7 @@ Decomposition of an arbitrary bending moment into a biaxial moment state.
 Here the moment, $M$, is decomposed into components $M\cos\theta$ and $M\sin\theta$ that can be treated with the symmetric bending equation. Applying the symmetric bending equation for each moment component, we obtain:
 
 ```{math}
----
-name: eq:BiaxialBend
----
+:name: eq:BiaxialBend
 {\sigma _z} = \frac{{{M_x}y}}{{{I_{xx}}}} + \frac{{{M_y}x}}{{{I_{yy}}}}
 ```
 
