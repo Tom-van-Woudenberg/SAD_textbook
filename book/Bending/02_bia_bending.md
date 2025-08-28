@@ -28,7 +28,7 @@ Here the moment, $M$, is decomposed into components $M\cos\theta$ and $M\sin\the
 
 ```{math}
 :name: eqBiaxialBend
-{\sigma _z} = \frac{{{M_x}y}}{{{I_{xx}}}} + \frac{{{M_y}x}}{{{I_{yy}}}}
+\sigma _z = \frac{M_x y}{I_{xx}} + \frac{M_y x}{I_{yy}}
 ```
 
 where $M_x$ and $M_y$ are the $x$- and $y$-components of an arbitrary moment $M$, $x$ and $y$ are the distances from the $y$ and $x$ axes respectively, and $I_{xx}$ and $I_{yy}$ are the moments of inertia about the $x$ and $y$ axes respectively. For the above illustrated case, $ {M_x} = M\cos \theta $ as this component produces a positive normal stress in the positive $y$-direction and ${M_y} =  - M\sin \theta $ as this component produces a negative normal stress in the positive $x$-direction.
