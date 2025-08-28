@@ -36,24 +36,7 @@ sphinx:                                              # Options passed on to the 
     html_show_copyright: false                       # As the copyright is included in the author field
     html_last_updated_fmt: '%B %-d, %Y'              # Adds the date of the last update to the footer
     html_static_path: ["figures"]                    # Add folder that contain files that need to be included, such as the location of the logo(s)
-    mathjax3_config:
-      chtml: {
-        mtextInheritFont: true                       # To typeset text within math prettier
-      }  
-    tud_change_favicon: true                        # Set to true if you want to change the favicon to match the TU Delft theme
-    tud_change_titlesize: false                      # Set to true if you want to change the title size to match the TU Delft theme
-    tud_change_logo: false                           # Set to true if you want to use the TU Delft logo instead of the TeachBooks logo
-  extra_extensions:                                  # Gives you a starter package of extensions to use in your book
-    - jupyterbook_patches                            # Various patches by TeachBooks: https://github.com/TeachBooks/JupyterBook-Patches
-    - download_link_replacer                         # Allows you to replace and add downloadable files to a page header: https://teachbooks.io/manual/external/Download-Link-Replacer/README.html
-    - sphinx_image_inverter                          # Inverts images for dark mode: https://teachbooks.io/manual/external/Sphinx-Image-Inverter/README.html
-    - sphinx_iframes                                 # Eases the embedding of iframes: https://teachbooks.io/manual/external/sphinx-iframes/README.html
-    - sphinx_exercise                                # Allows you to add exercise boxes to your book: https://ebp-sphinx-exercise.readthedocs.io/en/latest/
-    - teachbooks_sphinx_tippy                        # Enables hoover over tips: https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html
-    - sphinx_dropdown_toggle                         # Adds a button to toggle all dropdowns with one click
-    - sphinx_proof                                   # Allows you to add various mathy admonitions to your book: https://sphinx-proof.readthedocs.io/en/latest/
-    - sphinx_code_examples                           # Allows you to include code blocks in examples: https://teachbooks.io/manual/_git/github.com_TeachBooks_sphinx-code-examples/main/MANUAL.html
-    - sphinx_tudelft_theme                           # Adds the TU Delft theme to your book:
+
 
 bibtex_bibfiles: 
   - references.bib                                   # Required for references
