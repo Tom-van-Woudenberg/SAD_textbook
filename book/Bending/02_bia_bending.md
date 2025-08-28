@@ -31,7 +31,14 @@ Here the moment, $M$, is decomposed into components $M\cos\theta$ and $M\sin\the
 \sigma _z = \frac{M_x y}{I_{xx}} + \frac{M_y x}{I_{yy}}
 ```
 
+```{math}
+:label: my-math-ref
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
+```
+
 where $M_x$ and $M_y$ are the $x$- and $y$-components of an arbitrary moment $M$, $x$ and $y$ are the distances from the $y$ and $x$ axes respectively, and $I_{xx}$ and $I_{yy}$ are the moments of inertia about the $x$ and $y$ axes respectively. For the above illustrated case, $ {M_x} = M\cos \theta $ as this component produces a positive normal stress in the positive $y$-direction and ${M_y} =  - M\sin \theta $ as this component produces a negative normal stress in the positive $x$-direction.
+
+Another test: See Equation {eq}`my-math-ref`.
 
 When analyzing a biaxial bending problem, one must take care when identifying the location of the neutral axis. It may be tempting to think that it will be aligned with moment $M$ as it is with the symmetric bending components, but this is generally not the case. Recognizing that the normal stress at the neutral axis is zero, we can prove this by setting eqn. {eq}`eqBiaxialBend` = [](eqBiaxialBend) equal to zero:
 
